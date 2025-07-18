@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎮 CustomizeRoblox
+# 🎮 Customize Roblox
 
 *The Ultimate Roblox Customization Toolkit*
 

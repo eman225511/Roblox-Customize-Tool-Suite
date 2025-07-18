@@ -224,7 +224,7 @@ FastFlag configurations are stored in `FastFlagPresets.json`. You can:
 ### Supported Launcher Paths
 | Launcher | Configuration Path |
 |----------|-------------------|
-| **Roblox** | `%LOCALAPPDATA%\Roblox\ClientSettings\` |
+| **Roblox** | `%LOCALAPPDATA%\Roblox\` |
 | **Bloxstrap** | `%LOCALAPPDATA%\Bloxstrap\` |
 | **Fishstrap** | `%LOCALAPPDATA%\Fishstrap\` |
 

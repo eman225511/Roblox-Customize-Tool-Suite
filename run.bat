@@ -17,9 +17,9 @@ echo ^|                    CUSTOMIZEROBLOX LAUNCHER                ^|
 echo ^|                     Choose Your Tool                      ^|
 echo +============================================================+
 echo.
-echo  [1] FastFlag Applier    - Fast Flags
-echo  [2] CDBL-Lite           - Custom Debloated Blox Launcher
-echo  [3] Fleasion Backend    - Fleasion
+echo  [1] FastFlag Applier    - Apply performance FastFlags
+echo  [2] CDBL-Lite           - Custom Debloated Roblox Launcher
+echo  [3] Fleasion Backend    - Advanced Roblox customization tools
 echo  [4] Install Python      - Auto install Python with PATH
 echo  [5] Exit
 echo.
@@ -60,31 +60,6 @@ goto start
 :fleasion
 cls
 echo Starting Fleasion Backend...
-
-REM Check if Python is installed
-python --version >nul 2>&1
-if !errorlevel! neq 0 (
-    echo [WARNING] Python is not installed or not in PATH!
-    echo Fleasion Backend requires Python to run.
-    echo.
-    echo Would you like to install Python automatically? (Y/N)
-    set /p installpy="Choice: "
-    if /i "!installpy!"=="Y" (
-        if exist "%SCRIPT_DIR%install_python.bat" (
-            call "%SCRIPT_DIR%install_python.bat"
-        ) else (
-            echo [ERROR] install_python.bat not found!
-        )
-        echo.
-        echo Python installation completed. Continuing with Fleasion...
-        timeout /t 3 >nul
-    ) else (
-        echo Please install Python manually and try again.
-        pause
-        goto start
-    )
-)
-
 if exist "%SCRIPT_DIR%Fleasion-Backend-main\run.bat" (
     cd /d "%SCRIPT_DIR%Fleasion-Backend-main"
     call "run.bat"

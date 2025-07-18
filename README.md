@@ -94,6 +94,7 @@ Powerful backend tools and utilities for advanced Roblox customization.
 > **Get started in under 2 minutes!**
 
 ### 🎯 Method 1: One-Click Launch
+Get ZIP [Here](https://github.com/eman225511/Roblox-Customize-Tool-Suite/releases)
 ```bash
 # Download the repository and run
 run.bat
